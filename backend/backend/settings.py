@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'corsheaders',            # add this
     'rest_framework',         # add this 
     'todo',
-  ]
+]
 
 
 MIDDLEWARE = [
@@ -125,6 +125,8 @@ STATIC_URL = '/static/'
 
 
 # we whitelist localhost:3000 because that's where frontend will be served
-CORS_ORIGIN_WHITELIST = (
-     'localhost:3000/'
- )
+# CORS_ORIGIN_WHITELIST = (
+#     'localhost:3000',
+#     'example.com'
+# )
+CORS_ORIGIN_ALLOW_ALL = True

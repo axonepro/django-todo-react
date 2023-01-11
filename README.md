@@ -29,3 +29,12 @@ You will need two terminals pointed to the frontend and backend directories to s
 ## Creator Credit
 
 This demo app was originally built for a scotch.io (acquired in 2020 by DigitalOcean) article by [Jordan Irabor](https://github.com/Jordanirabor/django-todo-react)
+
+
+
+## TODO
+1. run project
+2. add test
+3. improve security
+4. calculate test coverage
+5. improve performance
